@@ -1,0 +1,64 @@
+# Ignore binaries and build files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.log
+*.vs/
+.vscode/
+*.VC.db
+*.opensdf
+*.sdf
+*.tmp
+*.bak
+*.local
+*.pidb
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore Unreal auto-generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.VC.db
+
+# Ignore Unreal launcher data
+.vs/
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore config files that are local
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Optional: If you're using Rider or CLion
+.idea/
+
+# Ignore packaging folders
+Saved/
+*.apk
+*.ipa
+
+# Ignore crash reports
+CrashReportClient/Saved/
+
+# Ignore VaultCache
+VaultCache/
+
+# Ignore Plugins you don't want in repo (optional)
+# Plugins/SomeThirdPartyPlugin/
+
+# Ignore content browser thumbnails cache
+*.assetcache
